@@ -7,8 +7,11 @@ class KNN {
 		// this.train = function () { };
 	}
 
-	train() { console.log(this); }
-
+	train(pointsArr) {
+		pointsArr.forEach(point => this.points.push(point));
+	}
 }
+
+console.log(this.points);
 
 module.exports = KNN
