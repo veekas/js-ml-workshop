@@ -4,13 +4,12 @@
   "description": "A simple machine learning workshop.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests -w"
+    "test": "mocha tests"
   },
   "author": "James Tillman <james.tillman.7@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "chai": "^3.0.0",
-    "jimp": "^0.2.27",
-    "mocha": "^3.5.3"
+    "jimp": "^0.2.27"
   }
 }
